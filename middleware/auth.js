@@ -1,4 +1,4 @@
-const config = require('../config/Default.json');
+const config = require('../config/Default');
 const jwt = require('jsonwebtoken');
 
 function auth(req, res, next) {
