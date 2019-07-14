@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
-const config = require('./config/default');
+const config = require('./config/Default');
 
 const app = express();
 
 app.use(express.json());
 
-const db = config.get('mongoURI');
+const db = config.mongoURI;
 
 mongoose.connect(db, {
     useNewUrlParser: true,
