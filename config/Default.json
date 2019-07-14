@@ -1,4 +1,4 @@
 {
-    "mongoURI": "process.env.mongoURI || 5000",
+    "mongoURI": "process.env.mongoURI || mongodb+srv://sLeigh:Carmine1@shopping-list-piosg.mongodb.net/test?retryWrites=true&w=majority",
     "jwtSecret": "process.env.jwtSecret || sl_myJWTSecret"
 }
